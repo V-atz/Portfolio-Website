@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <img src="./logo.svg" alt="Profile Picture" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <img src="./profile.jpg" alt="" />
+          </div>
+          <div class="col-2">
+            <h1>About me</h1>
+            <p class="bioData">
+              Passionate programmer exploring full stack web application
+              development in MERN tech stack and sharpening problem solving
+              skills by Data structures and Algorithms.
+            </p>
+            <div class="resumeItems">
+              <p class="items active" onclick="openItem('Skills')">Skills</p>
+              <p class="items" onclick="openItem('Training')">Training</p>
+              <p class="items" onclick="openItem('Education')">Education</p>
+            </div>
+            <div id="Skills" class="itemContent activeItem">
+              <ul>
+                <li><span>Problem Solving</span></li>
+                <li><span>Object Oriented Programming</span></li>
+                <li><span>Javascript</span></li>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>C++</span></li>
+                <li><span>Node.js</span></li>
+                <li><span>Express.js</span></li>
+                <li><span>React.js</span></li>
+                <li><span>MongoDB</span></li>
+                <li><span>Authentication</span></li>
+                <li><span>JWT</span></li>
+                <li><span>Authorization</span></li>
+                <li><span>WebSockets</span></li>
+                <li><span>Redux</span></li>
+                <li><span>EJS</span></li>
+                <li><span>RESTful APIs</span></li>
+                <li><span>NEXT.js</span></li>
+                <li><span>Tailwind CSS</span></li>
+                <li><span>Bootstrap</span></li>
+                <li><span>DOM</span></li>
+                <li><span>MVC Architecture</span></li>
+                <li><span>Tech Stack</span></li>
+                <li><span>MERN</span></li>
+              </ul>
+            </div>
+            <div id="Training" class="itemContent">
+              <ul>
+                <li><span>Responsive Web Design</span></li>
+                <li><span>Full Stack Web Development</span></li>
+                <li><span>Data Structues & Algorithms</span></li>
+              </ul>
+            </div>
+            <div id="Education" class="itemContent">
+              <ul>
+                <li><span>B.Tech Computer Science</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects">
+      <div class="container2">
+        <h1>My Services</h1>
+        <div class="project-list">
+          <div>
+            <h2>Web Application</h2>
+            <p class="bioData">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Assumenda officia adipisci aspernatur debitis aliquam unde
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>Frontend Development</h2>
+            <p class="bioData">
+              Lorem ipsum dolor sit amet consectetur, adatis, ullam facilis quas
+              earum. Perferendis, adipisci. Tenetur odit molestias ut
+              exercitationem minima natus sint?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>BackEnd Development</h2>
+            <p class="bioData">
+              Lorem ipsum dolor sit amet consectetur, adipint neque libero
+              veritatis. Nesciunt corrupti veritatis, ullam facilis quas earum.
+              Perferendis, adipisci. Tenetur odit molestias ut exercitationem
+              minima natus sint?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container-3">
+        <h1>Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./moon-1527501_640.jpg" alt="" />
+            <div class="layer">
+              <h3>E-commerce</h3>
+              <p>Modern E-commerce Web Application</p>
+              <a href="#"><img src="./export.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./stars-1655504_640.jpg" alt="" />
+            <div class="layer">
+              <h3>Chat Application</h3>
+              <p>
+                The customized website representing your portfolio, which is
+                connected by external links making it dynamic only at server
+                side.
+              </p>
+              <a href="#"><img src="./export.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./earth.jpg" alt="" />
+            <div class="layer">
+              <h3>URL Shortener</h3>
+              <p>
+                The customized website representing your portfolio, which is
+                connected by external links making it dynamic only at server
+                side.
+              </p>
+              <a href="#"><img src="./export.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <div id="contacts" class="contact">
+      <div class="container-4">
+        <div class="row">
+          <div class="contact-left">
+            <h1>Contact me</h1>
+            <p>vatsaltandel48@gmail.com</p>
+            <p>9265282045</p>
+          </div>
+          <!-- <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" id="" cols="30" rows="6"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
